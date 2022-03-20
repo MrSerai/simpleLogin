@@ -1,0 +1,49 @@
+
+
+<p-card >
+  <p-card header="Macrocomm">
+
+<form [formGroup]="userLogins" (ngSubmit)="onSubmit()" align="center">
+
+<!--
+  <input type="text" pInput ngModel placeholder="Username" formControlName="">
+<br> <br>
+
+<input type="text" pInput ngModel placeholder="Password">
+
+<br><br>
+<input type="text" pInput formControlName="UserName">
+
+
+
+--><br><br><br><br>
+
+<div class="p-inputgroup">
+  <span class="p-inputgroup-addon"><i class="pi pi-user"></i></span>
+  <input type="text" pInputText placeholder="Username" formControlName="UserName">
+</div><br><br><!--
+<input type="text" pInput  formControlName="UserName" placeholder="Username">
+
+<br> <br>
+<input type="text" pInputText class="p-inputtext-lg" formControlName="Password" placeholder="Password">
+-->
+<div class="p-inputgroup">
+  <span class="p-inputgroup-addon"><i class="pi pi-lock"></i></span>
+  <input type="text" pInputText placeholder="Password" formControlName="Password">
+</div><br> <ng-template class="alert alert-danger" [ngIf]="valid!=true" ><div>Inccorrect Username Or Password</div></ng-template><br>
+<br> <br>
+<button pButton pRipple type="submit" label="Submit" class="p-button-raised p-button-text"></button>
+
+<!--
+<button pButton pRipple type="submit"  ngSubmit label="Submit"  class="p-button-raised p-button-text"></button>
+-->
+
+
+<br><br><br><br>
+
+</form>
+
+
+<p>{{userLogins.get('password')?.value}}</p>
+</p-card>
+</p-card>

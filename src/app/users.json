@@ -1,0 +1,47 @@
+[
+  {
+    "id":1, "username":"Allucious","Password":"123456","Role":"dev","taxNumber":5468413
+},
+{
+  "id":2,"username":"Takalani","Password":"123456","Role":"dev","taxNumber":5468413
+},  {
+  "id":6,"username":"Tropic","Password":"123456","Role":"dev","taxNumber":5468413
+},
+
+{
+  "id":7, "username":"Beau","Password":"123456","Role":"dev","taxNumber":5468413
+},  {
+  "id":8, "username":"Pren","Password":"123456","Role":"employee","taxNumber":5468413
+},  {
+  "id":5, "username":"Nathen","Password":"123456","Role":"employee","taxNumber":5468413
+},
+{
+  "id":4,"username":"Phumi","Password":"123456","Role":"dev","taxNumber":5468413
+},    {
+  "id":3, "username":"Yakshini","Password":"123456","Role":"Admin","taxNumber":5468413
+},    {
+  "id":3, "username":"Ashook","Password":"123456","Role":"Admin","taxNumber":5468413
+},    {
+  "id":3, "username":"Mervin","Password":"123456","Role":"Admin","taxNumber":5468413
+},    {
+  "id":3, "username":"Ntombi","Password":"123456","Role":"Admin","taxNumber":5468413
+},    {
+  "id":3, "username":"Nosihle","Password":"123456","Role":"Admin","taxNumber":5468413
+},    {
+  "id":3, "username":"Aphiwe","Password":"123456","Role":"Admin","taxNumber":5468413
+},    {
+  "id":3, "username":"Sean","Password":"123456","Role":"Admin","taxNumber":5468413
+},    {
+  "id":3, "username":"James","Password":"123456","Role":"Admin","taxNumber":5468413
+},    {
+  "id":3, "username":"Sesethu","Password":"123456","Role":"Admin","taxNumber":5468413
+},    {
+  "id":3, "username":"Thembi","Password":"123456","Role":"Admin","taxNumber":5468413
+},    {
+  "id":3, "username":"Pearl","Password":"123456","Role":"Admin","taxNumber":5468413
+},    {
+  "id":3, "username":"Sindy","Password":"123456","Role":"Admin","taxNumber":5468413
+},    {
+  "id":3, "username":"Zwido","Password":"123456","Role":"Admin","taxNumber":5468413
+}
+]

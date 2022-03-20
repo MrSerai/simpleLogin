@@ -1,0 +1,55 @@
+<p>manage-emplyees works!
+
+</p>
+
+
+
+<table class="mat-table">
+  <tr>
+
+      <th></th>
+      <th>Tick</th>
+      <th>From</th>
+      <th>To</th>
+      <th>Total Days</th>
+  </tr>
+  <tr>
+    <td>Annual Leave</td>
+    <td>  <input id="annualLeave" type="radio" class="custom-control-input" name="annualLeave" ngModel></td>
+
+  </tr>
+<TR>
+  <TD>Family Responsibility </TD>
+  <td>  <input id="familyResponsibility" type="radio" class="custom-control-input" name="familyResponsibility" ngModel></td>
+
+</TR>
+<tr>
+<td>
+  Study Leave
+</td>
+<td>  <input id="  studyLeave" type="radio" class="custom-control-input" value="male" name="studyLeave" ngModel></td>
+<td>
+  <input matInput [matDatepicker]="picker">
+  <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+  <mat-datepicker #picker></mat-datepicker>
+
+</td>
+
+</tr>
+<tr>
+
+
+<TD> Sick Leave</TD>
+<td>  <input id="sickLeave" type="radio" class="custom-control-input"  name="sickLeave" ngModel></td>
+
+</tr>
+<tr>
+  <td>Other</td>
+  <td>  <input id="Other" type="radio" class="custom-control-input" value="Other" name="Other" ngModel></td>
+
+</tr>
+
+
+
+  </table>
+
